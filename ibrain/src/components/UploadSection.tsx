@@ -119,7 +119,7 @@ const UploadSection: React.FC = () => {
                     src="/assets/image-logo.png"
                     alt="Upload Icon"
                   />
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 sm:text-md text-sm text-center">
                     {isDragActive
                       ? "Drop Here to Upload"
                       : "Drag & Drop Your Image Here or Click to Select"}
