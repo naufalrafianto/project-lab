@@ -55,7 +55,7 @@ const UploadSection: React.FC = () => {
 
   return (
     <div>
-      <div className="mx-auto flex h-40 w-80 flex-col items-center justify-center gap-y-2 rounded-[4rem] bg-white shadow-lg">
+      <div className="mx-auto flex h-40 w-80 flex-col items-center justify-center gap-y-2 rounded-[4rem] bg-white shadow-lg bg-white">
         <button
           onClick={toggleModal}
           className="flex h-10 w-48 items-center justify-center rounded-3xl bg-primary text-center font-semibold text-white shadow-lg hover:shadow-md"

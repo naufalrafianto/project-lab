@@ -44,8 +44,7 @@ const Footer: React.FC = () => {
             />
           </div>
           <p className="mt-2 text-sm">
-            © 2024 iDerm4U. All rights reserved. Powered by OpenAI | Developed
-            by [Your Name]
+            © 2024 iDerm4U. All rights reserved.
           </p>
         </div>
       </div>

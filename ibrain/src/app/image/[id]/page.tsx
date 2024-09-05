@@ -45,15 +45,14 @@ const DynamicImagePage = () => {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-blue-50 p-4 md:flex-row md:gap-8">
-      {/* Left: Uploaded Image */}
       {imageUrl ? (
-        <div className="relative h-64 w-full max-w-md md:h-96 md:w-1/2">
+        <div className="relative h-64 w-full max-w-md md:h-96 md:w-1/2 rounded-lg">
           <Image
             src={imageUrl}
             alt="Uploaded Image"
             layout="fill"
             objectFit="contain"
-            className="rounded-lg shadow-md"
+            className="rounded-lg object-contain w-full"
             priority
           />
         </div>
