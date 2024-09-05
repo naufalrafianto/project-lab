@@ -35,7 +35,7 @@ const Home: React.FC = () => {
 
         {/* Full Width Image */}
         <Image
-          className="z-10 w-full object-cover"
+          className="z-10 w-full object-cover -mt-64"
           src="/assets/Artboard.png"
           alt="Decorative artboard"
           width={1437}
